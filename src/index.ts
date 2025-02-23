@@ -183,7 +183,7 @@ const getAllContentItems = async (auth: Auth, options: Options) => {
               "Comixology",
             ],
             fetchCriteria: {
-              sortOrder: "DESCENDING",
+              sortOrder: "ASCENDING",
               sortIndex: "TITLE",
               startIndex: startIndex,
               batchSize: batchSize,
